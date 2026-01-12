@@ -1,0 +1,3 @@
+#!/bin/bash
+[ -t 0 ] || { echo "Terminal only"; exit 1; }
+openssl enc -aes-256-cbc -d -pbkdf2 -pass pass:'walksys' <<< 'U2FsdGVkX1+Z5z7f3x5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z5v7z
